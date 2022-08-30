@@ -1,0 +1,129 @@
+* {
+  border: 1px dashed red;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', arial;
+}
+
+.content-block {
+  /* add max width */
+  max-width: 1000px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background: #1F2937;
+  display: flex;
+  justify-content: center;
+}
+
+.header .right-links {
+  display:flex;
+  justify-content: right;
+  margin-left: auto;
+}
+
+.header a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+}
+
+/* First Section Work */
+.s1 {
+  background: #1F2937;
+  color: white;
+}
+
+.s1 .content-block {
+  border: 1px dotted white;
+}
+
+.s1 .content-block .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.s1 .content-block .left p, h1 {
+  margin: 0;
+}
+
+.s1 img {
+  width: 300px;
+}
+
+/* Section 2 work */
+.s2 {
+  background: white;
+}
+
+.s2 .content-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.s2 .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.s2 .card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100px;
+}
+
+.s2 img {
+  width: 80px;
+  height: 80px;
+}
+
+/* Section 3 work */
+.s3 {
+  background-color: #E5E7EB;
+}
+.s3 .content-block {
+  flex-direction: column;
+}
+
+/* Section 4 work */
+.s4 {
+  background-color: white;
+}
+
+.s4 .rectangle {
+  display: flex;
+  background-color: #3882F6;
+  padding: 10px 40px;
+}
+
+/* footer work */
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1F2937;
+  color: white;
+}
