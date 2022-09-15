@@ -12,7 +12,7 @@ body {
 .content-block {
   /* add max width */
   max-width: 1000px;
-  width: 600px;
+  width: 1500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,6 +28,8 @@ body {
   background: #1F2937;
   display: flex;
   justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .header .right-links {
@@ -39,7 +41,7 @@ body {
 .header a {
   text-decoration: none;
   padding: 10px;
-  color: white;
+  color: #E5E7EB;
 }
 
 .logo {
@@ -55,7 +57,8 @@ body {
 }
 
 .s1 .content-block {
-  border: 1px dotted white;
+  height: 450px; 
+  gap: 20px;
 }
 
 .s1 .content-block .left {
@@ -65,11 +68,29 @@ body {
 }
 
 .s1 .content-block .left p, h1 {
-  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.s1 .content-block h1 {
+  font-size: 48px;
+}
+
+.s1 .content-block .left p {
+  font-size: 18px;
+  color: #E5E7EB;
 }
 
 .s1 img {
-  width: 300px;
+  width: 500px;
+}
+
+.s1 .content-block .left button {
+  color: white;
+  background-color: #3882F6;
+  width: 120px;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 /* Section 2 work */
@@ -80,12 +101,20 @@ body {
 .s2 .content-block {
   display: flex;
   flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+.s2 .content-block h2 {
+  font-size: 36px;
+  color: #1F2937;
+  margin-bottom: 40px;
 }
 
 .s2 .cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 50px;
 }
 
 .s2 .card{
@@ -93,20 +122,49 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 100px;
+  max-width: 160px;
+}
+
+.s2 .card p {
+  text-align: center;
+  color: grey;
+  margin: 6px 0px 0px 0px;
 }
 
 .s2 img {
-  width: 80px;
-  height: 80px;
+  width: 160px;
+  height: 160px; 
+  border: 3px solid #3882F6;
+  border-radius: 10px;
 }
 
 /* Section 3 work */
 .s3 {
   background-color: #E5E7EB;
 }
+
 .s3 .content-block {
   flex-direction: column;
+  justify-content: center;
+  height: 400px;
+}
+
+.s3 .content-block .quote-container *{
+  width: 800px;
+  margin: 0px;
+}
+
+.s3 .content-block .quote {
+  font-size: 36px;
+  font-style: italic;
+  color: black;
+}
+
+.s3 .content-block .Name {
+  font-weight: bold;
+  color: #1F2937;
+  text-align: end;
+  font-size: 25px;
 }
 
 /* Section 4 work */
