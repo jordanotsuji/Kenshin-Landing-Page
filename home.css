@@ -60,13 +60,16 @@ body {
 
 .s1 .content-block {
   height: 450px; 
-  gap: 25px;
+  gap: 30px;
+  justify-content: space-between;
 }
 
 .s1 .content-block .left {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align:justify;
+  width: 500px;
 }
 
 .s1 .content-block .left p{
