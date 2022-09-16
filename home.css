@@ -1,5 +1,5 @@
 * {
-  border: 1px dashed red;
+  /* border: 1px dashed red; */
 }
 
 body {
@@ -12,7 +12,8 @@ body {
 .content-block {
   /* add max width */
   max-width: 1000px;
-  width: 1500px;
+  min-width: 1000px;
+  width: 1000px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -67,16 +68,18 @@ body {
   justify-content: center;
 }
 
-.s1 .content-block .left p, h1 {
-  margin-top: 10px;
+.s1 .content-block .left p{
+  margin-top: 5px;
   margin-bottom: 10px;
+  color: #E5E7EB;
 }
 
 .s1 .content-block h1 {
   font-size: 48px;
+  margin-bottom: 0;
 }
 
-.s1 .content-block .left p {
+.s1 .content-block p {
   font-size: 18px;
   color: #E5E7EB;
 }
@@ -88,9 +91,10 @@ body {
 .s1 .content-block .left button {
   color: white;
   background-color: #3882F6;
-  width: 120px;
-  padding: 5px;
+  width: 100px;
+  height: 30px;
   border-radius: 5px;
+  border: none;
 }
 
 /* Section 2 work */
@@ -214,4 +218,9 @@ body {
   justify-content: center;
   background-color: #1F2937;
   color: white;
+}
+
+.footer .content-block {
+  padding: 40px 0px;
+  color:#E5E7EB;
 }
