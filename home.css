@@ -1,5 +1,5 @@
 * {
-  /* border: 1px dashed red; */
+  border: 1px dashed red;
 }
 
 /* General rules */
@@ -118,8 +118,9 @@ body {
 
 .s2 .cards {
   display: flex;
-  flex-wrap: wrap;
-  gap: 50px;
+  flex-wrap: inherit;
+  width: inherit;
+  justify-content: space-evenly;
 }
 
 .s2 .card{
