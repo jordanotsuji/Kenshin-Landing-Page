@@ -1,5 +1,5 @@
 * {
-  border: 1px dashed red;
+  /* border: 1px dashed red; */
 }
 
 /* General rules */
@@ -126,7 +126,6 @@ body {
 .s2 .card{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   max-width: 160px;
 }
