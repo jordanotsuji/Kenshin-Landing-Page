@@ -42,7 +42,7 @@ body {
 
 .header a {
   text-decoration: none;
-  padding: 10px;
+  padding: 10px 0px 10px 20px;
   color: #E5E7EB;
 }
 
@@ -69,7 +69,7 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align:justify;
-  width: 500px;
+  max-width: 420px;
 }
 
 .s1 .content-block .left p{
